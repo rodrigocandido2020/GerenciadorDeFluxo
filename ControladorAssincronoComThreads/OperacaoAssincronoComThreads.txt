@@ -1,0 +1,19 @@
+Threads são unidades de execução dentro de um processo, permitindo que múltiplas tarefas sejam
+realizadas simultaneamente. 
+Elas são essenciais para a programação concorrente, permitindo que o sistema execute diferentes
+partes do código ao mesmo tempo, melhorando o desempenho e a responsividade das aplicações, 
+especialmente em sistemas de múltiplos núcleos
+
+Execução em paralelo:
+    Uma vez que a thread é criada e iniciada, ela começa a execução de seu código paralelo ao restante do programa
+
+Deadlock:
+    Deadlock é um problema que ocorre quando duas ou mais threads ficam em um estado de espera infinita,
+cada uma aguardando que a outra libere um recurso. Isso pode ser causado, por exemplo, quando duas
+threads tentam acessar dois recursos compartilhados ao mesmo tempo, e cada thread segura um recurso
+enquanto espera pelo outro. A solução para o deadlock geralmente envolve o uso de algoritmos para evitar
+esse tipo de situação ou a implementação de timeouts.
+
+O uso de threads é crucial para melhorar a eficiência e responsividade de sistemas modernos. No entanto,
+trabalhar com threads exige cuidado, especialmente ao lidar com concorrência, sincronização e recursos
+compartilhados

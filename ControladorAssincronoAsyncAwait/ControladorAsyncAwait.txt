@@ -1,0 +1,30 @@
+O async e o await em C# são utilizados para criar operações assíncronas de maneira mais simples
+e legível, facilitando a execução de tarefas que podem ser realizadas de forma independente
+sem bloquear o fluxo principal do programa.
+
+async: 
+    O modificador async é usado em métodos, delegados ou expressões lambda para indicar que o método
+será assíncrono. Um método marcado como async geralmente retorna uma tarefa (Task, Task<T>). Esse 
+modificador não muda a execução do código por si só, mas permite que você use o await dentro 
+do método, o que possibilita a execução assíncrona do código.
+
+await: 
+    O await é usado para pausar a execução do método assíncrono até que a operação assíncrona
+associada à Task seja concluída. O código após o await será executado assim que a operação 
+assíncrona for concluída. O await só pode ser usado dentro de métodos marcados com async,
+e a operação à qual ele se refere deve retornar uma Task ou Task<T>.
+O await permite que o código continue de onde parou, mantendo a performance sem bloquear
+o thread principal.
+
+Vantagens do async e await
+
+Não bloqueia o Thread: 
+    Ao contrário de métodos síncronos que bloqueiam o thread enquanto aguardam a conclusão
+de uma operação, o async/await libera o thread para realizar outras tarefas enquanto aguarda
+a conclusão da operação assíncrona. Isso melhora a performance, especialmente em aplicativos
+de UI e servidores que precisam responder rapidamente a múltiplas requisições.
+
+O uso de async e await em C# é uma técnica poderosa para melhorar a performance de aplicações,
+especialmente aquelas que precisam realizar tarefas demoradas. Esses recursos tornam a programação
+assíncrona mais simples e mais eficiente, permitindo escrever código assíncrono de forma clara e
+legível, com boa gestão de exceções e sem perder performance

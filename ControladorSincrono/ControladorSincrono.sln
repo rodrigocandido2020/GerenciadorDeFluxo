@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControladorSincrono", "ControladorSincrono\ControladorSincrono.csproj", "{F8DD4B35-03ED-422E-84DE-5E59E3FFFCCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControladorAssincronoComThreads", "..\ControladorAssincronoComThreads\ControladorAssincronoComThreads.csproj", "{31FF74FD-2625-49A4-B39B-C7EBE9AE52A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControladorAssincronoAsyncAwait", "..\ControladorAssincronoAsyncAwait\ControladorAssincronoAsyncAwait.csproj", "{C9F2FAAA-D015-40AC-866A-0A6C31E84F6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F8DD4B35-03ED-422E-84DE-5E59E3FFFCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8DD4B35-03ED-422E-84DE-5E59E3FFFCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8DD4B35-03ED-422E-84DE-5E59E3FFFCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FF74FD-2625-49A4-B39B-C7EBE9AE52A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FF74FD-2625-49A4-B39B-C7EBE9AE52A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FF74FD-2625-49A4-B39B-C7EBE9AE52A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FF74FD-2625-49A4-B39B-C7EBE9AE52A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F2FAAA-D015-40AC-866A-0A6C31E84F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F2FAAA-D015-40AC-866A-0A6C31E84F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F2FAAA-D015-40AC-866A-0A6C31E84F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F2FAAA-D015-40AC-866A-0A6C31E84F6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
