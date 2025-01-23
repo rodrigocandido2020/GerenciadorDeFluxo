@@ -1,0 +1,38 @@
+Uma operação síncrona é um tipo de execução onde as tarefas são realizadas de forma sequencial,
+ou seja, uma tarefa só começa após a conclusão da anterior.
+Nesse modelo, cada etapa do processo precisa ser concluída antes que a próxima seja iniciada.
+É como se as tarefas estivessem em uma fila, e cada uma precisa esperar a sua vez para ser executada.
+
+1: A execução de uma operação é "parado" aguardando o término de uma tarefa antes de prosseguir.
+
+2: O fluxo de execução é linear e fácil de entender.
+
+3: Ideal para cenários onde as operações dependem fortemente umas das outras.
+
+exemplo:
+Primeiro, a OPERAÇÃO 1 é iniciada e concluída.
+Em seguida, a OPERAÇÃO 2 só é iniciada após OPERAÇÃO 1 terminar.
+Por fim, a tarefa OPERAÇÃO 3 será executada após o término da OPERAÇÃO 2.
+
+Benefícios de uma Operação Síncrona:
+
+Simplicidade: 
+    O código é mais fácil de entender e depurar, pois segue uma lógica sequencial.
+
+Controle: 
+    Você sabe exatamente quando cada operação será iniciada e concluída.
+
+Previsibilidade: 
+    Não há concorrência ou necessidade de gerenciar múltiplas execuções ao mesmo tempo.
+
+Limitações de uma Operação Síncrona:
+
+Desempenho: 
+    Operações bloqueantes podem levar ao desperdício de tempo, especialmente em sistemas que
+precisam esperar respostas (como requisições a bancos de dados ou APIs externas).
+
+Escalabilidade: 
+    Não é adequado para sistemas que precisam lidar com múltiplas operações simultâneas.
+
+Tempo de Resposta: 
+    Pode resultar em tempos de resposta maiores, já que cada operação depende do término da anterior.
