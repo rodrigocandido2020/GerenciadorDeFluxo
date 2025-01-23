@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControladorSincrono", "Cont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControladorAssincronoComThreads", "..\ControladorAssincronoComThreads\ControladorAssincronoComThreads.csproj", "{31FF74FD-2625-49A4-B39B-C7EBE9AE52A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControladorAssincronoAsyncAwait", "..\ControladorAssincronoAsyncAwait\ControladorAssincronoAsyncAwait.csproj", "{C9F2FAAA-D015-40AC-866A-0A6C31E84F6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControladorAsyncAwait", "..\ControladorAssincronoAsyncAwait\ControladorAsyncAwait.csproj", "{C9F2FAAA-D015-40AC-866A-0A6C31E84F6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
