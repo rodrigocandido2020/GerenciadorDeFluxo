@@ -11,10 +11,8 @@ do método, o que possibilita a execução assíncrona do código.
 await: 
     O await é usado para pausar a execução do método assíncrono até que a operação assíncrona
 associada à Task seja concluída. O código após o await será executado assim que a operação 
-assíncrona for concluída. O await só pode ser usado dentro de métodos marcados com async,
-e a operação à qual ele se refere deve retornar uma Task ou Task<T>.
-O await permite que o código continue de onde parou, mantendo a performance sem bloquear
-o thread principal.
+assíncrona for concluída. O await permite que o código continue de onde parou, mantendo a 
+performance sem bloquear o thread principal.
 
 Vantagens do async e await
 
